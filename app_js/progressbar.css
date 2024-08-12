@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+    width: 50%;
+    height: 80%; 
+    padding: 20px;
+}
+h1 {
+    color: black; 
+    text-align: center; 
+    background-color: white;
+    font-size: x-large;
+    font-weight: 900;
+    padding-top: 40px;
+}
+
+.inputcontainer {
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Progress {
+    background-color: #ddd7d7;
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative; 
+}
+.progress-done {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 0; 
+    transition: width 1s ease;
+    border-radius: 20px;
+ position: absolute;
+    background-image: repeating-linear-gradient(to left,
+        rgb(241, 118, 118),
+        rgb(243, 77, 77),
+        rgb(234, 11, 11)
+    );
+    box-shadow: 0px 5px 5px 0px rgb(241, 118, 118),
+                0px 7px 7px rgb(243, 77, 77);
+}
+
+.barinput {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    background-color: white;
+    width: 80px;
+    height: 40px;
+    margin-top: 44px;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding: 2px;
+}
